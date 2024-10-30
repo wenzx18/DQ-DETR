@@ -23,7 +23,6 @@ bash install.sh
 ## Eval models
 ```sh
 bash scripts/DQ_eval.sh /path/to/your/dataset /path/to/your/checkpoint
-#bash scripts/DQ_eval.sh /nfs/home/hoiliu/Datasets/aitod /nfs/home/hoiliu/dqdetr/weights/dqdetr_best305.pth
 ```
 
 ## Trained Model
@@ -32,13 +31,16 @@ bash scripts/DQ_eval.sh /path/to/your/dataset /path/to/your/checkpoint
 CUDA_VISIBLE_DEVICES=5,6,7 bash scripts/DQ.sh /path/to/your/dataset
 ```
 
-## Other Research Paper on Tiny Object Detection 
+## Other works on Tiny Object Detection 
 A DeNoising FPN With Transformer R-CNN for Tiny Object Detection
 Hou-I Liu and Yu-Wen Tseng and Kai-Cheng Chang and Pin-Jyun Wang and Hong-Han Shuai, and Wen-Huang Cheng 
-IEEE Transactions on Geoscience and Remote Sensing
-[paper](https://arxiv.org/abs/2406.05755) [code](https://github.com/hoiliu-0801/DNTR) 
+
+IEEE Transactions on Geoscience and Remote Sensing (TGRS 2024)
+
+[[paper]](https://arxiv.org/abs/2406.05755) [[code]](https://github.com/hoiliu-0801/DNTR) 
 
 ## Citation
+```bibtex
 @article{huang2024dq,
   title={Dq-detr: Detr with dynamic query for tiny object detection},
   author={Huang, Yi-Xin and Liu, Hou-I and Shuai, Hong-Han and Cheng, Wen-Huang},
