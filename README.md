@@ -34,10 +34,8 @@ CUDA_VISIBLE_DEVICES=5,6,7 bash scripts/DQ.sh /path/to/your/dataset
 ```
 
 ## Other works on Tiny Object Detection 
-* Title: A DeNoising FPN With Transformer R-CNN for Tiny Object Detection.
-Author: Hou-I Liu and Yu-Wen Tseng and Kai-Cheng Chang and Pin-Jyun Wang and Hong-Han Shuai, and Wen-Huang Cheng. 
-Journal: IEEE Transactions on Geoscience and Remote Sensing (**TGRS 2024**).
-[paper](https://arxiv.org/abs/2406.05755) | [code](https://github.com/hoiliu-0801/DNTR) 
+* **DNTR (TGRS 2024)** [paper](https://arxiv.org/abs/2406.05755) | [code](https://github.com/hoiliu-0801/DNTR) 
+
 
 ## Citation
 ```bibtex
