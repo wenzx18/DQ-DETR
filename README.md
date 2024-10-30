@@ -33,7 +33,7 @@ bash scripts/DQ_eval.sh /path/to/your/dataset /path/to/your/checkpoint
 CUDA_VISIBLE_DEVICES=5,6,7 bash scripts/DQ.sh /path/to/your/dataset
 ```
 
-## Other works on Tiny Object Detection 
+## Our works on Tiny Object Detection 
 | Title | Venue | Links |
 |------|-------------|-------|
 | **DNTR** | **TGRS 2024**  | [**Paper**](https://arxiv.org/abs/2406.05755) \| [**Code**](https://github.com/hoiliu-0801/DNTR) |
@@ -42,11 +42,17 @@ CUDA_VISIBLE_DEVICES=5,6,7 bash scripts/DQ.sh /path/to/your/dataset
 **Authors:** Yi-Xin Huang, Hou-I Liu*, Hong-Han Shuai, and Wen-Huang Cheng  
 **Conference:** The European Conference on Computer Vision (**ECCV 2024**)
 
-| **Section**    | **Details**                                                                                     |
 |----------------|-------------------------------------------------------------------------------------------------|
-| **Paper**      | [Read the Paper](https://arxiv.org/abs/2404.03507)                                           |
-| **Code**       | (Include link to the code repository here)                                                    |
-| **中文解读**   | [中文解读](https://blog.csdn.net/athrunsunny/article/details/137994172)  
+| **Title**      |  DQ-DETR: DETR with Dynamic Query for Tiny Object Detection                                     |
+| **Paper**      | [Paper](https://arxiv.org/abs/2404.03507)                                                       |
+| **Code**       | (Include link to the code repository here)                                                      |
+| **中文解读**    | [中文解读](https://blog.csdn.net/athrunsunny/article/details/137994172)                           |
+|----------------|-------------------------------------------------------------------------------------------------|
+| **Title**      |  DQ-DETR: DETR with Dynamic Query for Tiny Object Detection                                     |
+| **Paper**      | [Paper](https://arxiv.org/abs/2404.03507)                                                       |
+| **Code**       | (Include link to the code repository here)                                                      |
+| **中文解读**    | [中文解读](https://blog.csdn.net/athrunsunny/article/details/137994172)                           |
+|----------------|-------------------------------------------------------------------------------------------------|
 
 
 ## Citation
