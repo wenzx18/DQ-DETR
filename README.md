@@ -35,6 +35,7 @@ CUDA_VISIBLE_DEVICES=5,6,7 bash scripts/DQ.sh /path/to/your/dataset
 
 ## Other works on Tiny Object Detection 
 * **DNTR (TGRS 2024)** 
+
 [paper](https://arxiv.org/abs/2406.05755) | [code](https://github.com/hoiliu-0801/DNTR) 
 
 
