@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DQ-DETR: DETR with Dynamic Query for Tiny Object Detection
 
 ![method](./figure/model_final_V4.pdf)
@@ -53,3 +54,7 @@ IEEE Transactions on Geoscience and Remote Sensing
   number={},
   pages={1-15},
 }
+=======
+# DQ-DETR
+DQ-DETR: DETR with Dynamic Query for Tiny Object Detection
+>>>>>>> f64ce5cedf9d8873f785f78b7408bd1bdffa3d7e
