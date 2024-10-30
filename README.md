@@ -24,7 +24,6 @@ bash install.sh
 ## Eval models
 ```sh
 bash scripts/DQ_eval.sh /path/to/your/dataset /path/to/your/checkpoint
-# bash scripts/DQ_eval.sh /nfs/home/hoiliu/dqdetr/weights/dqdetr_best305.pth
 ```
 
 ## Trained Model
