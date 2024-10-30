@@ -10,7 +10,6 @@
 [2024/7/1]: **DQ-DETR** has been accepted by **ECCV 2024**. 🔥🔥🔥
 
 [2024/5/3]: **DNTR** has been accepted by **TGRS 2024**. 🔥🔥🔥
-bash scripts/DQ_eval.sh /nfs/home/hoiliu/dqdetr/weights/dqdetr_best305.pth
 
 
 ## Installation -- Compiling CUDA operators
@@ -35,7 +34,9 @@ CUDA_VISIBLE_DEVICES=5,6,7 bash scripts/DQ.sh /path/to/your/dataset
 
 ## Other works on Tiny Object Detection 
 A DeNoising FPN With Transformer R-CNN for Tiny Object Detection.
+
 Hou-I Liu and Yu-Wen Tseng and Kai-Cheng Chang and Pin-Jyun Wang and Hong-Han Shuai, and Wen-Huang Cheng. 
+
 IEEE Transactions on Geoscience and Remote Sensing (**TGRS 2024**)
 
 [paper](https://arxiv.org/abs/2406.05755) | [code](https://github.com/hoiliu-0801/DNTR) 
