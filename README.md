@@ -24,6 +24,7 @@ bash install.sh
 ## Eval models
 ```sh
 bash scripts/DQ_eval.sh /path/to/your/dataset /path/to/your/checkpoint
+# bash scripts/DQ_eval.sh /nfs/home/hoiliu/dqdetr/weights/dqdetr_best305.pth
 ```
 
 ## Trained Model
@@ -37,7 +38,7 @@ A DeNoising FPN With Transformer R-CNN for Tiny Object Detection.
 
 Hou-I Liu and Yu-Wen Tseng and Kai-Cheng Chang and Pin-Jyun Wang and Hong-Han Shuai, and Wen-Huang Cheng. 
 
-IEEE Transactions on Geoscience and Remote Sensing (**TGRS 2024**)
+IEEE Transactions on Geoscience and Remote Sensing (**TGRS 2024**).
 
 [paper](https://arxiv.org/abs/2406.05755) | [code](https://github.com/hoiliu-0801/DNTR) 
 
