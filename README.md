@@ -40,6 +40,21 @@ CUDA_VISIBLE_DEVICES=5,6,7 bash scripts/DQ.sh /path/to/your/dataset
 | **DQ-DETR**| ECCV 2024 | [Paper](https://arxiv.org/abs/2404.03507)  \| [code](https://github.com/hoiliu-0801/DQ-DETR) |  \| [中文解读](https://blog.csdn.net/athrunsunny/article/details/137994172) | 
 
 
+## Performance
+Table 1. **Training Set:** AI-TOD-V2 trainval set, **Testing Set:** AI-TOD-V2 test set, 36 epochs, where FRCN, DR denotes Faster R-CNN and DetectoRS, respectively.
+|Method | Backbone | mAP | AP<sub>50</sub> | AP<sub>75</sub> |AP<sub>vt</sub> | AP<sub>t</sub>  | AP<sub>s</sub>  | AP<sub>m</sub> | 
+|:---:|:---:|:---:|:---:|:---:|:---:|:---: |:---: |:---: |
+Faster R-CNN | R-50 | 11.1 | 26.3 | 7.6 | 0.0 | 7.2 | 23.3 | 33.6 | 
+NWD-RKA | R-50 | 23.4 | 53.5 | 16.8 | 8.7 | 23.8 | 28.5 | 36.0 |
+DAB-DETR | R-50 | 22.4 | 55.6 | 14.3 | 9.0 | 21.7 | 28.3 | 38.7 | 
+DINO-DETR | R-50 | 25.9 | 61.3 | 17.5 | 12.7 | 25.3 | 32.0 | 39.7 | 
+DQ-DETR | R-50 | **30.5** | **69.2** | **22.7** | **15.2** | **30.9** | **36.8** | **45.5** | 
+
+
+
+## Pretrained Weights 
+* Referred to checkpoint.txt for more details.
+https://ucsdcloud-my.sharepoint.com/:f:/g/personal/yih102_ucsd_edu/Eg3Hgj75AjJAokWllAwVz-4BforiT37GuMilCQ-x9VArZQ?e=L5uxbe
 
 
 ## Citation
