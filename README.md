@@ -4,16 +4,19 @@
 ![method](./figure/model_final_V4.pdf)
 
 * This repository is an official implementation of the paper DQ-DETR: DETR with Dynamic Query for Tiny Object Detection.
-* The code are built upon the official [DINO DETR](https://github.com/IDEA-Research/DINO) repository.
+* The original repository link was https://github.com/Katie0723/DQ-DETR. Here is the updated link.
+
 
 ## News
 [2024/7/1]: DQ-DETR has been accepted by ECCV 2024. 🔥🔥🔥
 
 [2024/5/3]: DNTR has been accepted by TGRS 2024. 🔥🔥🔥
-
+bash scripts/DQ_eval.sh /nfs/home/hoiliu/dqdetr/weights/dqdetr_best305.pth
 
 
 ## Installation -- Compiling CUDA operators
+* The code are built upon the official [DINO DETR](https://github.com/IDEA-Research/DINO) repository.
+
 ```sh
 conda create -n dqdetr python=3.9 --y
 conda activate dqdetr
