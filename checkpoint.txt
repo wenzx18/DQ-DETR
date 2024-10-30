@@ -1,0 +1,6 @@
+下載: https://ucsdcloud-my.sharepoint.com/:f:/g/personal/yih102_ucsd_edu/Eg3Hgj75AjJAokWllAwVz-4BforiT37GuMilCQ-x9VArZQ?e=L5uxbe
+
+
+1. checkpoint0031_5scale.pth => Original DINO ckpt on COCO (load to as pretrained to train on AITOD)
+2. pretrain_new.pth => checkpoint0031_5scale.pth作為pretrained，在AITOD-v2上trained 24 epoch(DQDETR半成品, 沒有cgfe)
+3. dqdetr_best305.pth => dynamic_encoder_pos_g4_ep24.pth作為pretrained，在AITOD-v2上再繼續trained 24 epoch(完整DQDETR, 總共在aitod上訓練48epoch)
