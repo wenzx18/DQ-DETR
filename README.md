@@ -54,6 +54,7 @@ DQ-DETR | R-50 | **30.5** | **69.2** | **22.7** | **15.2** | **30.9** | **36.8**
 
 ## Pretrained Weights 
 * Referred to checkpoint.txt for more details.
+
 https://ucsdcloud-my.sharepoint.com/:f:/g/personal/yih102_ucsd_edu/Eg3Hgj75AjJAokWllAwVz-4BforiT37GuMilCQ-x9VArZQ?e=L5uxbe
 
 
