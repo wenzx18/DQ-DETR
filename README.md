@@ -37,7 +37,7 @@ CUDA_VISIBLE_DEVICES=5,6,7 bash scripts/DQ.sh /path/to/your/dataset
 | Title | Venue | Links |
 |------|-------------|-------|
 | **DNTR** | TGRS 2024  | [Paper](https://arxiv.org/abs/2406.05755) \| [code](https://github.com/hoiliu-0801/DNTR) |  \| - | 
-| **DQ-DETR**| ECCV 2024 | [Paper](https://arxiv.org/abs/2404.03507)  \| [code](https://github.com/hoiliu-0801/DQ-DETR) |  \| [中文解读](https://blog.csdn.net/athrunsunny/article/details/137994172) | 
+| **DQ-DETR**| ECCV 2024 | [Paper](https://arxiv.org/abs/2404.03507)  \| [code](https://github.com/hoiliu-0801/DQ-DETR) |  \| [中文解读](https://blog.csdn.net/csdn_xmj/article/details/142813757) | 
 
 
 ## Performance
@@ -55,7 +55,7 @@ DQ-DETR | R-50 | **30.5** | **69.2** | **22.7** | **15.2** | **30.9** | **36.8**
 ## Pretrained Weights 
 * Referred to checkpoint.txt for more details.
 
-https://ucsdcloud-my.sharepoint.com/:f:/g/personal/yih102_ucsd_edu/Eg3Hgj75AjJAokWllAwVz-4BforiT37GuMilCQ-x9VArZQ?e=L5uxbe
+* https://reurl.cc/NlvV2Q
 
 
 ## Citation
