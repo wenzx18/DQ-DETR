@@ -79,11 +79,3 @@ organization={Springer}
   number={},
   pages={1-15},
 }
-
-<!-- @article{huang2024dq,
-  title={Dq-detr: Detr with dynamic query for tiny object detection},
-  author={Huang, Yi-Xin and Liu, Hou-I and Shuai, Hong-Han and Cheng, Wen-Huang},
-  journal={arXiv preprint arXiv:2404.03507},
-  year={2024}
-} -->
-
