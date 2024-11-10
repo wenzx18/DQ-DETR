@@ -61,13 +61,13 @@ DQ-DETR | R-50 | **30.5** | **69.2** | **22.7** | **15.2** | **30.9** | **36.8**
 ## Citation
 ```bibtex
 
-@InProceedings{huang2024dq,
-author={Huang, Yi-Xin and Liu, Hou-I and Shuai, Hong-Han and Cheng, Wen-Huang},
-title={DQ-DETR: DETR with Dynamic Query for Tiny Object Detection},
-booktitle={European Conference on Computer Vision},
-pages={290--305},
-year={2025},
-organization={Springer}
+@inproceedings{huang2025dq,
+  title={Dq-detr: Detr with dynamic query for tiny object detection},
+  author={Huang, Yi-Xin and Liu, Hou-I and Shuai, Hong-Han and Cheng, Wen-Huang},
+  booktitle={European Conference on Computer Vision},
+  pages={290--305},
+  year={2025},
+  organization={Springer}
 }
 
 @ARTICLE{10518058,
