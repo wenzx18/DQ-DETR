@@ -52,11 +52,24 @@ DAB-DETR | R-50 | 22.4 | 55.6 | 14.3 | 9.0 | 21.7 | 28.3 | 38.7 |
 DINO-DETR | R-50 | 25.9 | 61.3 | 17.5 | 12.7 | 25.3 | 32.0 | 39.7 | 
 DQ-DETR | R-50 | **30.5** | **69.2** | **22.7** | **15.2** | **30.9** | **36.8** | **45.5** | 
 
-## Dataset
-* AI-TOD-v1 and AI-TOD-v2 datasets.
+## AI-TOD-v1 and AI-TOD-v2 Datasets
+* Step 1: Download the datasets from the below link.
+```sh
+https://drive.google.com/drive/folders/1hkbcZ3TPABx3QxoCufE1KAPu55Ibw-8d?usp=sharing
+```
 
-* https://drive.google.com/drive/folders/1hkbcZ3TPABx3QxoCufE1KAPu55Ibw-8d?usp=sharing
 
+* Step 2: Organize the downloaded files in the following way.
+```sh
+├─ Dataset ─ aitod
+│   ├─ annotations
+│   ├─ images
+│   ├─ test
+│   ├─ train
+│   ├─ trainval
+│   └─ val
+├─ DQ-DETR
+```
 
 ## Pretrained Weights 
 * Referred to checkpoint.txt for more details.
