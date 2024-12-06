@@ -7,6 +7,8 @@
 
 
 ## News
+[2024/12/06] We released the organized datasets AI-TOD-V1 and AI-TOD-V2.
+
 [2024/7/1]: **DQ-DETR** has been accepted by **ECCV 2024**. 🔥🔥🔥
 
 [2024/5/3]: **DNTR** has been accepted by **TGRS 2024**. 🔥🔥🔥
@@ -51,7 +53,7 @@ DINO-DETR | R-50 | 25.9 | 61.3 | 17.5 | 12.7 | 25.3 | 32.0 | 39.7 |
 DQ-DETR | R-50 | **30.5** | **69.2** | **22.7** | **15.2** | **30.9** | **36.8** | **45.5** | 
 
 ## Dataset
-* AI-TOD-v1 and AI-TOD-v2 datasets
+* AI-TOD-v1 and AI-TOD-v2 datasets.
 
 * https://drive.google.com/drive/folders/1hkbcZ3TPABx3QxoCufE1KAPu55Ibw-8d?usp=sharing
 
