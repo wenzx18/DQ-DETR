@@ -61,13 +61,14 @@ https://drive.google.com/drive/folders/1hkbcZ3TPABx3QxoCufE1KAPu55Ibw-8d?usp=sha
 
 * Step 2: Organize the downloaded files in the following way.
 ```sh
-├─ Dataset ─ aitod
-│   ├─ annotations
-│   ├─ images
-│   ├─ test
-│   ├─ train
-│   ├─ trainval
-│   └─ val
+├─ Dataset
+│   └─ aitod
+│       ├─ annotations
+│       ├─ images
+│       ├─ test
+│       ├─ train
+│       ├─ trainval
+│       └─ val
 ├─ DQ-DETR
 ```
 
