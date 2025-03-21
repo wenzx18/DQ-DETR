@@ -55,7 +55,7 @@ DQ-DETR | R-50 | **30.5** | **69.2** | **22.7** | **15.2** | **30.9** | **36.8**
 ## AI-TOD-v1 and AI-TOD-v2 Datasets
 * Step 1: Download the datasets from the below link.
 ```sh
-[https://drive.google.com/drive/folders/1hkbcZ3TPABx3QxoCufE1KAPu55Ibw-8d?usp=sharing](https://drive.google.com/drive/folders/1CowS5BrujefWQxxlmOFfUuLOfUUm8w6U?usp=sharing)
+https://drive.google.com/drive/folders/1CowS5BrujefWQxxlmOFfUuLOfUUm8w6U?usp=sharing
 ```
 
 
