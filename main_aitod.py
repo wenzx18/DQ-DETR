@@ -53,7 +53,7 @@ def get_args_parser():
     parser.add_argument('--start_epoch', default=0, type=int, metavar='N',
                         help='start epoch')
     parser.add_argument('--eval', action='store_true')
-    parser.add_argument('--num_workers', default=10, type=int)
+    parser.add_argument('--num_workers', default=6, type=int)
     parser.add_argument('--test', action='store_true')
     parser.add_argument('--debug', action='store_true')
     parser.add_argument('--find_unused_params', action='store_true')
@@ -225,7 +225,7 @@ def main(args):
             
 
     if (not args.resume) and args.pretrain_model_path:
-        checkpoint = torch.load(args.pretrain_model_path, map_location='cpu')['model']
+        checkpoint = torch.load(args.pretrain_model_path, map_location='cpu', weights_only=True)['model']
         from collections import OrderedDict
         _ignorekeywordlist = args.finetune_ignore if args.finetune_ignore else [] 
         ignorelist = []

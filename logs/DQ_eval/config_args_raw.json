@@ -9,7 +9,7 @@
     "dn_box_noise_scale": 1.0
   },
   "dataset_file": "aitod_v2",
-  "coco_path": "/nfs/home/hoiliu/Datasets/aitod",
+  "coco_path": "/mnt/e/data/aitod",
   "coco_panoptic_path": null,
   "remove_difficult": false,
   "fix_size": false,
@@ -17,7 +17,7 @@
   "note": "",
   "device": "cuda",
   "seed": 42,
-  "resume": "/nfs/home/hoiliu/dqdetr/weights/dqdetr_best305.pth",
+  "resume": "data/models/dqdetr_best305.pth",
   "pretrain_model_path": null,
   "finetune_ignore": null,
   "start_epoch": 0,

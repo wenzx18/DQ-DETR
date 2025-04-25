@@ -25,7 +25,7 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
                     data_loader: Iterable, optimizer: torch.optim.Optimizer,
                     device: torch.device, epoch: int, max_norm: float = 0, 
                     wo_class_error=False, lr_scheduler=None, args=None, logger=None, ema_m=None):
-    scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+    scaler = torch.amp.GradScaler("cuda", enabled=args.amp)
 
     try:
         need_tgt_for_training = args.use_dn
@@ -58,7 +58,7 @@ def train_one_epoch(model: torch.nn.Module, criterion: torch.nn.Module,
         ccm_targets = torch.tensor(ccm_targets, dtype=torch.int64).to(device)
         targets = [{k: v.to(device) for k, v in t.items()} for t in targets]
 
-        with torch.cuda.amp.autocast(enabled=args.amp):
+        with torch.amp.autocast("cuda", enabled=args.amp):
             if need_tgt_for_training:
                 outputs = model(samples, targets)
             else:

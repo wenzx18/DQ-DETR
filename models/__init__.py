@@ -7,4 +7,4 @@
 from .dqdetr import build_dqdetr
 
 def build_model(args):
-    return build(args)
+    return build_dqdetr(args)
