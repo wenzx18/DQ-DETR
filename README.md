@@ -7,6 +7,8 @@
 
 
 ## News
+[2024/12/06] We released the organized datasets AI-TOD-V1 and AI-TOD-V2.
+
 [2024/7/1]: **DQ-DETR** has been accepted by **ECCV 2024**. 🔥🔥🔥
 
 [2024/5/3]: **DNTR** has been accepted by **TGRS 2024**. 🔥🔥🔥
@@ -34,9 +36,9 @@ CUDA_VISIBLE_DEVICES=5,6,7 bash scripts/DQ.sh /path/to/your/dataset
 ```
 
 ## Our works on Tiny Object Detection 
-| Title | Venue | Links |
+| Title | Venue | Links | 
 |------|-------------|-------|
-| **DNTR** | TGRS 2024  | [Paper](https://arxiv.org/abs/2406.05755) \| [code](https://github.com/hoiliu-0801/DNTR) |  \| - | 
+| **DNTR** | TGRS 2024  | [Paper](https://arxiv.org/abs/2406.05755) \| [code](https://github.com/hoiliu-0801/DNTR) |  \| [中文解读](https://blog.csdn.net/qq_40734883/article/details/142579516) | 
 | **DQ-DETR**| ECCV 2024 | [Paper](https://arxiv.org/abs/2404.03507)  \| [code](https://github.com/hoiliu-0801/DQ-DETR) |  \| [中文解读](https://blog.csdn.net/csdn_xmj/article/details/142813757) | 
 
 
@@ -50,7 +52,25 @@ DAB-DETR | R-50 | 22.4 | 55.6 | 14.3 | 9.0 | 21.7 | 28.3 | 38.7 |
 DINO-DETR | R-50 | 25.9 | 61.3 | 17.5 | 12.7 | 25.3 | 32.0 | 39.7 | 
 DQ-DETR | R-50 | **30.5** | **69.2** | **22.7** | **15.2** | **30.9** | **36.8** | **45.5** | 
 
+## AI-TOD-v1 and AI-TOD-v2 Datasets
+* Step 1: Download the datasets from the below link.
+```sh
+https://drive.google.com/drive/folders/1CowS5BrujefWQxxlmOFfUuLOfUUm8w6U?usp=sharing
+```
 
+
+* Step 2: Organize the downloaded files in the following way.
+```sh
+├─ Dataset
+│   └─ aitod
+│       ├─ annotations
+│       ├─ images
+│       ├─ test
+│       ├─ train
+│       ├─ trainval
+│       └─ val
+├─ DQ-DETR
+```
 
 ## Pretrained Weights 
 * Referred to checkpoint.txt for more details.
